@@ -1,4 +1,4 @@
- module "project_ec2" {
+  module "project_ec2" {
    source             = "./modules/ec2"
    instance_count     = var.instance_count
    name               = local.name
