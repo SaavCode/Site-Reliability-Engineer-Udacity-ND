@@ -7,14 +7,16 @@ terraform {
  }
 
  provider "aws" {
-   region = "us-east-2"
-   
-   default_tags {
-     tags = local.tags
-   }
- }
+  region = "us-east-2"
 
- provider "aws" {
-  alias  = "usw1"
-  region = "us-west-1"
+  default_tags {
+    tags = local.tags
+  }
+}
+
+provider "aws" {
+  shared_config_files      = ["~/.aws/config"]
+  shared_credentials_files = ["~/.aws/credentials"]
+  alias                    = "usw1"
+  region                   = "us-west-1"
 }
