@@ -1,3 +1,6 @@
 [submodule "P2-Planning-for-High-Availability-and-Incident-Response-COMPLETE"]
 	path = P2-Planning-for-High-Availability-and-Incident-Response-COMPLETE
 	url = https://github.com/TheAstronauta/Planning-for-High-Availability-and-Incident-Response.git
+[submodule "P3-Deployment-Roulette-SRE"]
+	path = P3-Deployment-Roulette-SRE
+	url = https://github.com/TheAstronauta/P3-Deployment-Roulette-SRE.git
